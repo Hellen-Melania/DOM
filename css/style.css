@@ -1,0 +1,65 @@
+body{
+	background: #fefdfd;
+}
+.wrap{
+	margin: 0 auto;
+	text-align: center;
+}
+.employeeList {
+	display: block;
+	position: relative;
+    margin: 15% auto 10%;
+    width: auto;
+    font-size: 20px;
+
+}
+.headlines{
+	font-weight: bolder;
+}
+.employeeList li{
+	list-style-type:none;
+	width:100%;
+	padding: 20px 0 0 0;
+}
+.employeeList span{
+	width: 15%;
+	display: inline-block;
+	margin: 0px 10px;
+}
+.add-new-employee label{
+	text-align: left;
+}
+.add-new-employee .form-group{
+	text-align: left;
+}
+#employee-info{
+	float: right;
+}
+#employee-info p{
+	display: inline-block;
+	padding: 25px 15px;
+	font-weight: 700;
+}
+#employee-info span{
+	color: #5bc0de;
+    font-size: 18px;	
+
+}
+.limit input{
+	width: 25%;
+	margin: 0 auto;
+	display: inline-block;
+	margin: 0 5px;
+}
+.limit label, #employee-info div{
+	display: inline-block;
+
+}
+.add-limit{
+	margin: 0 0 0 -13px;
+	vertical-align: top;
+}
+.headlines span {
+    font-weight: bolder;
+    font-size: 24px;
+}
